@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+   max-width: 424px;
+   margin: auto;
+   background-color:#EEEEEE;
+   
+   height: 80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+
+}
+.logo{
+    display: block;
+    /* margin: 50px auto; */
+    width:15% ;
+    /* margin-right: 12rem; */
+    margin-left: 2rem;
+    /* height:; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contains{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+h2{
+   
+   color:#2E0249;
+   font-size: 35px;
+   margin-right: 2rem;
+    
+   
+}
+
+
+.menu{
+display: block;
+/* position: absolute; */
+cursor: pointer;
+display: flex;
+flex-direction: column;
+/* margin-left: 24rem; */
+margin-right: 2rem;
+
+}
+.line{
+    width: 4.5px;
+    border-radius: 50%;
+    background-color: black;
+    height: 4px;
+    margin: 3px 3px;
+}
+body{
+    height: 70vh;
+    margin-top: 3rem;
+  
+}
+.container{
+    max-width: 355px;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+   background-color:#2E0249;
+   /* background-image: ; */
+}
+.message{
+    
+    color: white;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    /* border: 2px solid blanchedalmond; */
+    border-radius: 10px;
+    color: white;
+
+}
+.right{
+float: right;
+clear: both;
+background-color:#F10086;
+
+}
+.left{
+    color: white;
+    background-color: #F582A7;
+    float: left;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 455px;
+    /* width: 100%; */
+
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 39px;
+    padding: 4px 7px;
+    color: white;
+    background-color:#2E0249;
+}

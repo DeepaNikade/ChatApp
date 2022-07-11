@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dmChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <!-- <script defer src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script> -->
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="contains">
+
+            <img class="logo" src="dm logo (1).png" alt="">
+
+        <h2>DM Chat</h2>
+            
+            <div class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="container"></div> 
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Message">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
